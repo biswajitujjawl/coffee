@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Leiko";
+  src: url("./assets/fonts/Leiko-Regular.otf") format("opentype");
+}
+
+.font-leiko {
+  font-family: "Leiko", cursive;
+}

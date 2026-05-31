@@ -1,0 +1,44 @@
+.medium-color-buttom{
+    background-color: #67574C;
+    border-radius: 50px;
+    border:1px solid #F8E4BE;
+    cursor: pointer;
+}
+.medium-color-buttom:hover{
+    background-color:#3C2D2B;
+    border:1px solid #F8E4BE;
+}
+.dark-color-buttom{
+    background-color:#3C2D2B;
+    border-radius: 50px;
+    border:1px solid #F8E4BE;
+    cursor: pointer;
+}
+.dark-color-buttom:hover{
+    background-color: #67574C;
+    border:1px solid #F8E4BE;
+}
+/* MobileButtom */
+
+.medium-color-buttom-m{
+    background-color: #67574C;
+    border-radius: 50px;
+    border:1px solid #F8E4BE;
+    cursor: pointer;
+}
+.medium-color-buttom-m:hover{
+    background-color:#3C2D2B;
+    border:1px solid #F8E4BE;
+}
+.dark-color-buttom-m{
+    background-color:#3C2D2B;
+    border-radius: 50px;
+    border:1px solid #F8E4BE;
+    cursor: pointer;
+}
+.dark-color-buttom-m:hover{
+    background-color: #67574C;
+    border:1px solid #F8E4BE;
+}
+
+/* EndMobileButton */
