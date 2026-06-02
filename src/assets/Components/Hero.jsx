@@ -1,5 +1,7 @@
 import HeroImg from '../Images/HeroImg.png';
 import '../Components/AllPageCss/AllPage.css';
+// import HeroCard from "../Components/HeroCard";
+import HeroCard from './HeroCard';
 const Hero = () => {
     return (
         <div >
@@ -8,17 +10,25 @@ const Hero = () => {
                 <div className="container-fluid mx-auto">
                     <div className="flex flex-col md:flex-row md:min-h-screen">
                         <div className='hidden md:block md:w-[63%] text-white z-10'>
-                            <div className='mt-[140px] pl-[195px]'>
+                            <div className='mt-[100px] pl-[195px]'>
                                 <h1 className='hero-heading text-[90px] font-bold text-transparent
-    [-webkit-text-stroke:1px_#f5e6d3] drop-shadow-[0_0_2px_#f5e6d3] drop-shadow-[-2px_-2px_0_#f5e6d3]'>Elza Coffee</h1>
+                                   [-webkit-text-stroke:1px_#f5e6d3] drop-shadow-[0_0_2px_#f5e6d3] drop-shadow-[-2px_-2px_0_#f5e6d3]'>Elza Coffee</h1>
                                 <p className='w-80 mt-8'>
                                     Today's good mood is sponsored by coffee.
                                     Search for your coffee now.
                                 </p>
-                                <div className='mt-8 flex gap-4'>
+                                <div className='mt-8 flex gap-4 mb-5'>
                                     <a href="#" className='medium-color-buttom px-6 py-2 text-[#F8E4BE]'>Shop Now</a>
                                     <a href="#" className='dark-color-buttom px-6 py-2 text-[#F8E4BE]'>Catalog</a>
                                 </div>
+
+
+                                {/* Card */}
+                                <div className="absolute left-35 -bottom-1 z-10 ">
+                                    <HeroCard />
+                                </div>
+                                {/* Card */}
+
                             </div>
                         </div>
 

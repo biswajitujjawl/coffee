@@ -46,7 +46,7 @@ const Navbar = () => {
                 </div>    
             </div>
             {/* Mobile Menu */}
-            <div className={menuOpen ? "md:hidden bg-yellow-500 py-6" : "hidden"}>
+            <div className={menuOpen ? "md:hidden bg-[#6a3a2b]/50 backdrop-blur py-6" : "hidden"}>
                 <ul className='flex flex-col items-center gap-5 text-white text-[18px]'>
                     <li className='hover:text-yellow-500 cursor-pointer duration-300'>Home</li>
                     <li className=''>Menu</li>
